@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from src.config import instruction
 
+# loading dot env variables
+
 load_dotenv()
 
 GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
